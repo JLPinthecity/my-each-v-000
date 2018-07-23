@@ -6,5 +6,3 @@ def my_each(array)
   end
   array[i]
 end
-
-
