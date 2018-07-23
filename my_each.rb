@@ -4,5 +4,8 @@ def my_each(array)
   yield(array[i])
   i += 1
   end
-  array[i]
-end
+  array
+    else
+      puts "Hey! No block was given!"
+    end
+  end
